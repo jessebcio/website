@@ -1,0 +1,4 @@
+url: "https://blackcrow.io"
+baseurl: ""
+exclude:
+  - vendor
