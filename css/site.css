@@ -105,3 +105,15 @@ a:hover {
   color: var(--muted);
   font-size: 0.82rem;
 }
+
+@media (max-width: 800px) {
+  .site-main {
+    flex: none;
+    min-height: 100vh;
+    min-height: 100svh;
+  }
+
+  .site-footer {
+    padding-bottom: calc(1.75rem + env(safe-area-inset-bottom, 0px));
+  }
+}
